@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .error {
+            color: red;
+        }
+
+        .success {
+            color: green;
+        }
+    </style>
+    <title>Form</title>
+</head>
+
+<body>
+    <div>
+        <h2>New Employees</h2>
+        <input type="text" id="name" placeholder="Enter Name">
+        <input type="text" id="profession" placeholder="Enter Profession">
+        <input type="number" id="age" placeholder="Enter Age">
+        <button onclick="addEmployee()">Add User</button>
+        <p id="message"></p>
+    </div>
+    <div>
+        <h2>Added Employees</h2>
+        <div id="employeeList">
+            <p>You have 0 Employees.</p>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
